@@ -1,17 +1,15 @@
 #include <iostream>
 
-#include "person.h"
-#include "project.h"
-#include "team.h"
+#include "project_all.h"
 
 int main() {
-  Person person1("1");
-  Person person2("2");
-  Person person3("3");
+  Person person1("Name1");
+  Person person2("Name2");
+  Person person3("Name3");
 
-  Person person4("4");
-  Person person5("5");
-  Person person6("6");
+  Person person4("Name4");
+  Person person5("Name5");
+  Person person6("Name6");
 
   Team team1;
   team1.add_member(person1.get_name());
