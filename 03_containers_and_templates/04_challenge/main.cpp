@@ -22,7 +22,8 @@ int main() {
         phoneBook1.addContact(name, number);
       }
     }
-
+    
+  file.close(); // ファイルを閉じる
 
   // 動作確認
   std::cout << phoneBook1.GetPhoneByName("Alic") << std::endl;
